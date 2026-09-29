@@ -2,6 +2,8 @@
 
 The official startup website for **Still Alight: 3D Candle**, an Android app by **Satzquatch**. The app is being prepared for Google Play.
 
+[Visit Still Alight](https://dxutakerxd.satzquatch.com/still-alight/) · [Privacy Policy](https://dxutakerxd.satzquatch.com/still-alight/privacy/) · [Support](https://dxutakerxd.satzquatch.com/still-alight/support/)
+
 ## Website
 
 A warm, candlelit product page with an interactive 3D candle, real Android app screenshots, original rain and fireside audio samples, and accessible Privacy, Terms, Support and data-removal pages.
