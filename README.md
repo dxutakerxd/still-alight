@@ -45,6 +45,8 @@ Publisher: **Satzquatch**. Support/privacy contact: **tex@discvault.us**.
 
 ## Assets and licensing
 
+The approved main identity is Quiet Flame. Reusable SVG symbols, horizontal logos, the preserved SA secondary monogram, and approved imagegen concepts are documented in the [brand kit](brand/README.md).
+
 The background was created with imagegen from the approved Quiet Room concept. The 3D objects, label art, product render and screenshots come from Still Alight. Screenshots include a custom-label example; they are not invented app screens. The sound samples are the app's original synthesized, 24-second, mono PCM loops packaged as WAV files without changing their samples. Delivery images are WebP encodings.
 
 Three.js licensing is included in `public/third-party-notices.txt`. Public source availability does not grant an additional license to the Still Alight artwork or app assets.

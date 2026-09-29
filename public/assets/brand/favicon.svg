@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Still Alight</title>
+  <rect width="128" height="128" rx="28" fill="#626344"/>
+  <g transform="translate(24 12) scale(.8)">
+  <path fill="#DCA331" d="M51 3C49 17 33 28 33 43c0 11 7 17 17 17 12 0 18-8 18-20 0-12-10-27-15-36-1-2-2-2-2-1Z"/>
+  <rect fill="#F7F1E5" x="46.5" y="65" width="7" height="18" rx="3.5"/>
+  <path fill="#F7F1E5" d="M6 64h7q4 0 4 4c1 15 12 21 33 21s32-6 33-21q0-4 4-4h7q4 0 4 4v12c0 21-17 33-48 33S2 101 2 80V68q0-4 4-4Z"/>
+  </g>
+</svg>
+

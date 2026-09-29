@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 116" width="100" height="116" role="img" aria-labelledby="title">
+  <title id="title">Still Alight — Quiet Flame</title>
+  <path fill="#DCA331" d="M51 3C49 17 33 28 33 43c0 11 7 17 17 17 12 0 18-8 18-20 0-12-10-27-15-36-1-2-2-2-2-1Z"/>
+  <rect fill="#392619" x="46.5" y="65" width="7" height="18" rx="3.5"/>
+  <path fill="#392619" d="M6 64h7q4 0 4 4c1 15 12 21 33 21s32-6 33-21q0-4 4-4h7q4 0 4 4v12c0 21-17 33-48 33S2 101 2 80V68q0-4 4-4Z"/>
+</svg>
+

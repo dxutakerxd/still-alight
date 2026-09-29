@@ -259,14 +259,15 @@ def render_page(slug: str) -> str:
   <meta name="description" content="{html.escape(description, quote=True)} Information for Still Alight: 3D Candle by Satzquatch.">
   <meta name="theme-color" content="#171411">
   <title>{html.escape(title)} · Still Alight</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/brand/favicon.svg">
   <link rel="stylesheet" href="../legal.css">
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
   <header class="site-header">
     <a class="wordmark" href="../" aria-label="Still Alight home">
-      <svg class="brand-flame" viewBox="0 0 24 36" aria-hidden="true" focusable="false"><path d="M13 2c2 7-7 9-7 16 0 5 3 8 7 8s7-3 7-8c0-4-3-7-4-11 0 5-3 6-3 6 2-5 1-8 0-11Z" fill="currentColor"/><path d="M9 30h8M10 34h6" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/></svg>
-      <span>Still Alight<small>A Satzquatch creation</small></span>
+      <img class="brand-mark" src="../assets/brand/quiet-flame-light.svg" alt="" width="36" height="36">
+      <span>Still Alight</span>
     </a>
     <a class="back-link" href="../"><span aria-hidden="true">←</span> Back to the candle</a>
   </header>
@@ -294,7 +295,7 @@ def render_page(slug: str) -> str:
     </div>
   </main>
   <footer class="site-footer">
-    <div><a class="footer-brand" href="../">Still Alight</a><p>A little light. A little room to breathe.</p></div>
+    <div><a class="footer-brand" href="../" aria-label="Still Alight home"><img class="brand-mark" src="../assets/brand/quiet-flame-light.svg" alt="" width="36" height="36"><span>Still Alight</span></a><p>A little light. A little room to breathe.</p></div>
     <nav aria-label="Footer">{legal_links(slug)}<a href="https://satzquatch.com/">More from Satzquatch <span aria-hidden="true">↗</span></a></nav>
     <p class="footer-note">Current Android prerelease: version 0.9.1. Published by Satzquatch · <a href="mailto:tex@discvault.us">tex@discvault.us</a></p>
   </footer>
