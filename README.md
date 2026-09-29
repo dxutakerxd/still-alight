@@ -26,7 +26,7 @@ npm run preview
 
 The build renders `content/*.md` into standalone HTML pages and writes the complete static site to `dist/`. Legal pages work without JavaScript. Relative asset links allow deployment under a repository path.
 
-The included GitHub Actions workflow builds and deploys pushes to `main` through GitHub Pages. In repository Settings → Pages, the publishing source is GitHub Actions. Existing GitHub Pages repositories are independent of this project.
+The included GitHub Actions workflow builds and deploys pushes to `main` through GitHub Pages. In repository Settings → Pages, the publishing source is GitHub Actions. Each repository builds independently, but a project site inherits any custom domain configured on the account's user Pages site. That domain must have working DNS; the default `github.io` project address redirects to it. See [GitHub's custom-domain documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages).
 
 ## Content updates
 
