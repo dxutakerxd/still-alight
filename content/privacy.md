@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Effective date: **29 September 2026**. This page describes the current Still Alight Android prerelease, version **0.9.1**.
+Effective date: **29 September 2026**. This page describes the current Still Alight Android app, version **1.0.0**.
 
 Still Alight: 3D Candle is published by **Satzquatch**. In this policy, “we” means that publisher. For privacy questions, contact **[tex@discvault.us](mailto:tex@discvault.us)**.
 
@@ -8,7 +8,7 @@ This policy describes the current Android app, our app website, and messages you
 
 ## The current app
 
-Version 0.9.1 works without an account or an internet connection. It has no advertising, analytics, purchase, or remote crash-reporting integration. It does not send your candle settings, remembrance content, labels, photos, or audio to us. We do not operate an app account or cloud-sync service for this version.
+Version 1.0.0 works without an account or an internet connection. It has no advertising, analytics, purchase, or remote crash-reporting integration. It does not send your candle settings, remembrance content, labels, photos, or audio to us. We do not operate an app account or cloud-sync service for this version.
 
 The app saves information in its private storage so that your choices and creations remain available when you return:
 
@@ -34,7 +34,7 @@ The original file is not edited or deleted by these import features. A private c
 
 The app uses Android's app-private files and preferences. Access protection depends on Android and your device's security. This is not a promise of a separate encrypted vault or of protection against someone with access to an unlocked device. Labels and remembrance names or messages can also be visible on your screen or live wallpaper when you choose to display them.
 
-The current app disables Android cloud backup in its manifest. Its device-transfer rules explicitly exclude saved preferences. Some manufacturers handle device-to-device transfer differently, and the current rules do not exclude every private file category. We therefore do not promise that imported media or label files can never be copied by a device migration service. Any copies managed by your device or a storage provider are separate from the app instance on this phone.
+Version 1.0.0 disables Android cloud backup and explicitly excludes app preferences, private files, databases, and app-specific external and device-protected storage from Android cloud backup and device-transfer rules. Device manufacturers and independent migration services may behave differently; copies already created by earlier versions or other services are not removed by these rules. Any copies managed by your device or a storage provider are separate from this installed app.
 
 ## Keeping and deleting app content
 
@@ -60,9 +60,13 @@ The website's own code does not set cookies, use browser storage, run analytics 
 
 ## Planned advertising and paid ad-free option
 
-We plan a future release with Google AdMob advertising and a paid ad-free option managed through RevenueCat. **Neither service is integrated in version 0.9.1, and this version does not transmit data to them.**
+We plan a future release with Google AdMob advertising and a paid ad-free option managed through RevenueCat. **Neither service is integrated in version 1.0.0, and this version does not transmit data to them.**
 
 Before such a release, this policy and the Google Play disclosures must be updated to describe the services actually used, the data they receive, purposes, privacy choices and deletion options. A planned ad-free option is not a promise that a future purchase-enabled version will make no network requests or process no purchase information.
+
+## Intended audience
+
+Still Alight is intended for adults aged 18 and older. It does not provide app accounts or collect age information. If you believe a child has sent personal information to our support address, contact us to request its deletion, subject to applicable legal retention requirements.
 
 ## Changes and contact
 

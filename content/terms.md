@@ -1,10 +1,12 @@
 # Terms of Use
 
-Effective date: **29 September 2026**. This page describes the current Still Alight Android prerelease, version **0.9.1**.
+Effective date: **29 September 2026**. This page describes the current Still Alight Android app, version **1.0.0**.
 
 Still Alight: 3D Candle is provided by **Satzquatch**. These terms describe use of the app and its accompanying website. Questions can be sent to **[tex@discvault.us](mailto:tex@discvault.us)**.
 
 ## Using Still Alight
+
+Still Alight is intended for adults aged 18 and older. It is a decorative and personal remembrance app, not a medical device or a substitute for professional care.
 
 Still Alight provides interactive digital candles, ambient sound, custom labels, remembrance dates and an Android live wallpaper. You may install and use the app for your own lawful purposes, subject to these terms and the terms of the store through which you obtained it.
 
@@ -18,7 +20,7 @@ Your content can be visible to people who see your phone, including when display
 
 ## Local content and app behavior
 
-Version 0.9.1 has no app account or publisher-operated sync service. Clearing the app's storage or uninstalling it removes local content from that installation. We cannot restore content from an account on our servers. Device migrations and storage-provider copies are governed by those systems separately. The [Privacy Policy](privacy.md) and [Delete your data](delete-data.md) page explain the current storage and deletion behavior.
+Version 1.0.0 has no app account or publisher-operated sync service. Clearing the app's storage or uninstalling it removes local content from that installation. We cannot restore content from an account on our servers. Device migrations and storage-provider copies are governed by those systems separately. The [Privacy Policy](privacy.md) and [Delete your data](delete-data.md) page explain the current storage and deletion behavior.
 
 Remembrance schedules and session timers use the phone's local time. They do not act as an alarm or notification service and do not wake a hidden app or wallpaper at a scheduled moment. Display and wallpaper options depend on the device. We may correct bugs and update features, and will describe material changes where appropriate.
 

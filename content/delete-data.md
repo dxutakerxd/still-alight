@@ -1,6 +1,6 @@
 # Delete your data
 
-Effective date: **29 September 2026**. This page describes the current Still Alight Android prerelease, version **0.9.1**.
+Effective date: **29 September 2026**. This page describes the current Still Alight Android app, version **1.0.0**.
 
 Still Alight currently has no app account. Your candle preferences, remembrance content, label designs and imported media are stored in the app's private storage on your device. You do not need to send us an account-deletion request to remove that local content.
 
@@ -32,7 +32,7 @@ Uninstalling the app also removes its local private data from that installation.
 
 Removing app content does not delete original photos or audio in your gallery or file provider. Manage those files in the app or service where they are stored.
 
-The current app disables Android cloud backup, but device-transfer behavior can vary and its transfer rules do not exclude every file category. Any copies already made by a device migration or backup service must be managed through that service or device. Clearing this installation does not reach another device or a separate copy.
+Version 1.0.0 disables Android cloud backup and excludes all app storage domains from its Android backup and device-transfer rules. Device manufacturers and independent migration services may behave differently. Any copies already made by a migration or backup service, including copies from earlier versions, must be managed through that service or device. Clearing this installation does not reach another device or a separate copy.
 
 We cannot access or remotely erase the private content stored in your Still Alight installation.
 

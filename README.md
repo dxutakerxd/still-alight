@@ -39,7 +39,7 @@ The included GitHub Actions workflow builds and deploys pushes to `main` through
 - Static page generator: `scripts/build-content.py`
 - Production assets: `public/assets/`
 
-The information pages describe the current Android prerelease, version **0.9.1**. AdMob advertising and a RevenueCat-managed paid ad-free option are planned but not integrated in that version. Update the privacy policy, purchase terms, consent controls and Play Data safety disclosures when those services are actually added. No public Play listing, price or release date is asserted by this site.
+The information pages describe the current Android app, version **1.0.0**. AdMob advertising and a RevenueCat-managed paid ad-free option are planned but not integrated in that version. Update the privacy policy, purchase terms, consent controls and Play Data safety disclosures when those services are actually added. No public Play listing, price or release date is asserted by this site.
 
 Publisher: **Satzquatch**. Support/privacy contact: **tex@discvault.us**.
 

@@ -1,6 +1,6 @@
 # Support
 
-Effective date: **29 September 2026**. This page describes the current Still Alight Android prerelease, version **0.9.1**.
+Effective date: **29 September 2026**. This page describes the current Still Alight Android app, version **1.0.0**.
 
 Need help with Still Alight? Email **[tex@discvault.us](mailto:tex@discvault.us)** with “Still Alight” in the subject.
 
@@ -24,7 +24,7 @@ Dates use your phone's local time. A scheduled candle updates while the app or w
 
 Open **Live wallpaper** to choose a bundled background, a color, or your own image through **My Photos**. Use **Adjust** to frame a photo. **Set Wallpaper** opens Android's apply screen; home-screen and lock-screen choices depend on your phone. **Save Background** updates an already-applied Still Alight wallpaper.
 
-The wallpaper is silent. It does not add or rearrange launcher clocks, icons or widgets. A home-screen widget is not part of version 0.9.1.
+The wallpaper is silent. It does not add or rearrange launcher clocks, icons or widgets. A home-screen widget is not part of version 1.0.0.
 
 ## Sound and imported audio
 
@@ -46,4 +46,4 @@ The current app works offline, has no account and contains no ads or purchase in
 
 ## Future ads and ad-free purchases
 
-AdMob advertising and a RevenueCat-managed paid ad-free option are planned for a possible later release. They are not available in version 0.9.1. Purchase and restore guidance will be added when the actual product and release are ready.
+AdMob advertising and a RevenueCat-managed paid ad-free option are planned for a possible later release. They are not available in version 1.0.0. Purchase and restore guidance will be added when the actual product and release are ready.
