@@ -1,0 +1,27 @@
+node_modules/
+dist/
+.vite/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+
+# Local research; not part of the website repository.
+app-audit.md
+design-brief.md
+content/publication-checklist.md
+
+# Generated from the four Markdown source pages during the build.
+public/privacy/
+public/terms/
+public/support/
+public/delete-data/
+public/publication-checklist/
+
+# Full-resolution working copies; delivery assets are WebP.
+public/assets/hero-room.png
+public/assets/candle-vanilla.png
+public/assets/screenshot-home.png
+public/assets/screenshot-remembrance.png
+public/assets/screenshot-wallpaper.png

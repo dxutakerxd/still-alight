@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#21160f" />
+    <meta name="description" content="Still Alight is a 3D candle for quiet moments, meaningful memories, and a warmer Android home screen. A little room for calm, by Satzquatch." />
+    <title>Still Alight — A little room for calm</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <main id="main">
+    <div class="quiet-room">
+      <img class="room-background" src="./assets/hero-room.webp" alt="" fetchpriority="high" />
+      <header class="site-header wrap" role="banner">
+        <a class="maker-link" href="#candle" aria-label="Still Alight home">
+          <svg class="sprig" viewBox="0 0 28 44" aria-hidden="true"><path d="M14 41C13 29 16 17 12 3M14 31C5 30 3 25 5 22c6 0 9 4 9 9Zm0-11c8-2 11-6 9-9-6 0-9 5-9 9ZM13 12C6 12 3 7 6 4c5 0 7 4 7 8Z" /></svg>
+          <span class="header-wordmark">Still Alight<small>by Satzquatch</small></span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#candle">The candle</a>
+          <a href="#inside">In the app</a>
+          <a href="#remembrance">Remembrance</a>
+          <a href="./support/">Support</a>
+        </nav>
+        <span class="maker-motto">Small things.<br />A brighter world.</span>
+      </header>
+
+        <section class="hero wrap" id="candle" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow hero-eyebrow">Still Alight <span>·</span> A little room for calm</p>
+            <h1 id="hero-title">A small light.<br /><em>A moment of<br class="desktop-break" /> your own.</em></h1>
+            <p class="hero-description">A 3D candle for quiet moments,<br class="desktop-break" /> meaningful memories, and a warmer home screen.</p>
+            <div class="hero-actions">
+              <a class="button button-cream" href="#inside">Explore Still Alight <span aria-hidden="true">⟶</span></a>
+              <a class="button button-outline" href="#release">Coming to Google Play</a>
+            </div>
+            <p class="hero-footnote"><span class="fine-rule" aria-hidden="true"></span>Same people.<br />More quiet things.</p>
+          </div>
+
+          <div class="candle-experience">
+            <div id="candle-viewer" class="candle-viewer" aria-label="Interactive Still Alight candle preview">
+              <div id="candle-canvas" class="candle-canvas">
+                <img id="candle-fallback" src="./assets/candle-vanilla.webp" alt="Still Alight's glass candle, with cream wax and a Vanilla Blossom label" width="1024" height="1024" fetchpriority="high" />
+              </div>
+              <div class="viewer-hint" aria-hidden="true"><span>↶</span>Drag to turn.<br />Make a little light.</div>
+            </div>
+            <div class="candle-controls">
+              <div class="candle-control-row">
+                <div class="scene-choices" role="group" aria-label="Candle color and label">
+                  <button class="scene-choice vanilla" data-scene="vanilla" aria-pressed="true" type="button"><span class="color-dot" aria-hidden="true"></span><span>Vanilla</span></button>
+                  <button class="scene-choice lavender" data-scene="lavender" aria-pressed="false" type="button"><span class="color-dot" aria-hidden="true"></span><span>Lavender</span></button>
+                  <button class="scene-choice cabin" data-scene="cabin" aria-pressed="false" type="button"><span class="color-dot" aria-hidden="true"></span><span>Cabin</span></button>
+                </div>
+                <button id="light-toggle" class="light-toggle" type="button" aria-pressed="true">
+                  <svg viewBox="0 0 20 26" aria-hidden="true"><path d="M11 1c2 7 7 10 7 15a8 8 0 1 1-16 0C2 11 7 7 11 1Zm-1 13c-2 3-4 5-4 7a4 4 0 0 0 8 0c0-2-2-4-4-7Z" /></svg>
+                  <span>Extinguish</span>
+                </button>
+              </div>
+              <div class="viewer-accessibility">
+                <div class="rotation-controls" role="group" aria-label="Rotate the candle">
+                  <button id="rotate-left" type="button" aria-label="Rotate candle left">↶</button>
+                  <span>Turn the candle</span>
+                  <button id="rotate-right" type="button" aria-label="Rotate candle right">↷</button>
+                </div>
+                <button id="motion-toggle" class="text-control" type="button" aria-pressed="false">Reduce motion</button>
+              </div>
+              <p id="candle-status" class="candle-status" role="status" aria-live="polite">Vanilla Blossom · a little light for right now.</p>
+              <p class="preview-note">Interactive web preview · adapted from the app model</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="wax-divider" aria-label="Explore moments in Still Alight">
+          <svg class="wax-surface" viewBox="0 0 1600 142" preserveAspectRatio="none" aria-hidden="true">
+            <defs><linearGradient id="wax-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff0d4"/><stop offset=".35" stop-color="#f5dfb7"/><stop offset=".78" stop-color="#e6cda0"/><stop offset="1" stop-color="#bea27a"/></linearGradient></defs>
+            <path d="M0 82C202 85 301 88 436 71c82-10 90-39 158-41 69-2 80 9 136-11 56-21 82-13 122 6 48 24 101 17 151 36 91 33 155 25 257 24l340-3v60H0Z" fill="url(#wax-fill)"/>
+            <path d="M0 82C202 85 301 88 436 71c82-10 90-39 158-41 69-2 80 9 136-11 56-21 82-13 122 6 48 24 101 17 151 36 91 33 155 25 257 24l340-3" fill="none" stroke="#fff0d2" stroke-width="3"/>
+          </svg>
+          <nav class="wax-links" aria-label="Find a quiet moment">
+            <a href="#inside" aria-label="Explore everyday candle moments"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="5"/><path d="M16 2v5m0 18v5M2 16h5m18 0h5M6 6l4 4m12 12 4 4M6 26l4-4M22 10l4-4"/></svg></a>
+            <a href="#remembrance" aria-label="Explore Remembrance"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M15 30c0-11 5-17 5-28M16 24c-7 0-10-4-9-7 6 0 9 3 9 7Zm2-9c7-1 10-5 8-8-5 0-8 4-8 8ZM19 9c-6-1-8-4-6-7 4 0 6 3 6 7Z"/></svg></a>
+            <a href="#sound" aria-label="Listen to quiet ambience"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M23 25A12 12 0 0 1 14 3a12 12 0 0 0 9 22Z"/></svg></a>
+          </nav>
+        </div>
+    </div>
+
+        <section class="remembrance section" id="remembrance" aria-labelledby="remembrance-title">
+          <div class="wrap remembrance-layout">
+            <div class="remembrance-copy">
+              <p class="eyebrow">Remembrance <span class="fine-rule" aria-hidden="true"></span></p>
+              <h2 id="remembrance-title">Keep a little light<br /><em>for someone.</em></h2>
+              <p class="section-lead">Some lights mean a little more.</p>
+              <p>Make a candle for a person or companion you love. Add their name, your own words, and the dates that matter. A small, personal way to hold them close.</p>
+              <ul class="quiet-list">
+                <li>A candle and message of their own</li>
+                <li>Meaningful dates, with optional annual repeats</li>
+                <li>A gentle presence in the app or live wallpaper</li>
+              </ul>
+              <a class="underlined-link" href="#inside">A closer look at the app <span aria-hidden="true">↗</span></a>
+            </div>
+            <figure class="remembrance-figure">
+              <div class="remembrance-glow" aria-hidden="true"></div>
+              <img class="remembrance-candle" src="./assets/candle-vanilla.webp" alt="A softly lit Vanilla Blossom candle from Still Alight" width="1024" height="1024" loading="lazy" />
+              <figcaption><span class="fine-rule" aria-hidden="true"></span>The people we carry<br />never really leave.</figcaption>
+            </figure>
+            <svg class="botanical botanical-one" viewBox="0 0 140 310" aria-hidden="true"><path d="M22 308C43 220 96 118 103 5M39 256C4 235-2 211 10 194c29 1 45 24 29 62Zm18-57c44-1 75-27 69-55-39-5-70 15-69 55ZM75 144c-34-14-40-43-24-60 30 5 40 28 24 60Zm14-52c35-6 50-24 43-42-26 0-41 17-43 42ZM101 34C77 23 77 8 88 0c17 4 19 17 13 34Z"/></svg>
+          </div>
+        </section>
+
+        <section class="inside section" id="inside" aria-labelledby="inside-title">
+          <div class="wrap">
+            <div class="section-heading two-column-heading">
+              <div><p class="eyebrow">Inside Still Alight</p><h2 id="inside-title">A little world.<br /><em>Made yours.</em></h2></div>
+              <p>Turn the glass. Choose the glow. Give your candle a label only you could make. The details are there for the moments you want to slow down.</p>
+            </div>
+            <div class="app-gallery">
+              <figure class="app-shot">
+                <a class="phone-frame" href="./assets/screenshot-home.webp" aria-label="Open full-size screenshot of the Still Alight home screen"><img src="./assets/screenshot-home.webp" alt="The real Still Alight home screen, with the 3D candle, controls, style chooser, and wax navigation" width="1440" height="3120" loading="lazy" /></a>
+                <figcaption><span class="chapter-number">01</span><h3>Your everyday light</h3><p>Three candle shapes. Three warm palettes. Light it, turn it, and settle into your own pace.</p></figcaption>
+              </figure>
+              <figure class="app-shot app-shot-raised">
+                <a class="phone-frame" href="./assets/screenshot-remembrance.webp" aria-label="Open full-size screenshot of Remembrance"><img src="./assets/screenshot-remembrance.webp" alt="The real Remembrance screen, with loved-one candles and a calendar for meaningful dates" width="1440" height="3120" loading="lazy" /></a>
+                <figcaption><span class="chapter-number">02</span><h3>A place for your people</h3><p>Names, memories, and dates that deserve a small light of their own.</p></figcaption>
+              </figure>
+              <figure class="app-shot">
+                <a class="phone-frame" href="./assets/screenshot-wallpaper.webp" aria-label="Open full-size screenshot of the live wallpaper editor"><img src="./assets/screenshot-wallpaper.webp" alt="Still Alight's real live wallpaper editor and candle preview" width="1440" height="3120" loading="lazy" /></a>
+                <figcaption><span class="chapter-number">03</span><h3>Carry the calm with you</h3><p>Give your Android home screen a candle, a favorite setting, and a softer kind of glow.</p></figcaption>
+              </figure>
+            </div>
+            <p class="gallery-note">Actual app screenshots, including a custom-label example. Still Alight is in development; details may change before release.</p>
+
+            <div class="small-details">
+              <article><span class="detail-mark" aria-hidden="true">✎</span><div><h3>A label in your own hand</h3><p>Draw, write, add photos, and arrange a design around the glass.</p></div></article>
+              <article><span class="detail-mark timer-mark" aria-hidden="true">◷</span><div><h3>A little time to yourself</h3><p>Choose a quiet session and watch the wax slowly burn down.</p></div></article>
+              <article><span class="detail-mark" aria-hidden="true">☼</span><div><h3>As gentle as you like</h3><p>Adjust the glow or choose a still flame for less motion.</p></div></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="sound section" id="sound" aria-labelledby="sound-title">
+          <div class="wrap sound-layout">
+            <div class="sound-copy"><p class="eyebrow">A softer background</p><h2 id="sound-title">Let the world<br /><em>quiet down a little.</em></h2><p>Soft rain on a slow afternoon. The familiar hush of a fireside. These are the same original soundscapes bundled with the app.</p><p class="muted-copy">Or bring a sound of your own. Still Alight can play an audio file you choose while your candle is lit and the app is open.</p></div>
+            <div class="sound-samples">
+              <div class="sound-sample"><div class="sample-heading"><svg viewBox="0 0 40 42" aria-hidden="true"><path d="M20 3C16 11 9 18 9 26a11 11 0 0 0 22 0c0-8-7-15-11-23ZM15 27a6 6 0 0 0 6 6"/></svg><div><h3>Soft rain</h3><p>A little weather. Nowhere to be.</p></div></div><audio controls preload="none" aria-label="Play Soft rain ambience sample"><source src="./assets/rain.wav" type="audio/wav" />Your browser cannot play this audio. <a href="./assets/rain.wav">Open the rain sample</a>.</audio></div>
+              <div class="sound-sample"><div class="sample-heading"><svg viewBox="0 0 40 42" aria-hidden="true"><path d="M22 3c1 10 11 14 11 23a13 13 0 0 1-26 0c0-7 5-12 10-18-1 8 1 9 3 11 3-4 3-10 2-16ZM20 24c-4 4-5 6-5 8a5 5 0 0 0 10 0c0-3-3-5-5-8Z"/></svg><div><h3>Fireside</h3><p>Warmth, without another word.</p></div></div><audio controls preload="none" aria-label="Play Fireside ambience sample"><source src="./assets/fireside.wav" type="audio/wav" />Your browser cannot play this audio. <a href="./assets/fireside.wav">Open the fireside sample</a>.</audio></div>
+              <p class="sound-note">Press play to listen. Sound never starts on its own.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="wallpaper section" id="wallpaper" aria-labelledby="wallpaper-title">
+          <div class="wrap wallpaper-layout">
+            <div class="wallpaper-visual"><div class="wallpaper-orbit" aria-hidden="true"></div><a class="phone-frame wallpaper-phone" href="./assets/screenshot-wallpaper.webp" aria-label="See the full live wallpaper editor screenshot"><img src="./assets/screenshot-wallpaper.webp" alt="The candle and background preview in Still Alight's live wallpaper editor" width="1440" height="3120" loading="lazy" /></a><span class="wallpaper-caption">A warmer welcome home.</span></div>
+            <div class="wallpaper-copy"><p class="eyebrow">Your live wallpaper</p><h2 id="wallpaper-title">A quiet corner,<br /><em>wherever you are.</em></h2><p>Your candle can live on your Android home screen, too. Choose a warm room, forest, beach, or mountains. Keep it simple with a color, or use a photo that feels like home.</p><p>Your chosen candle, angle, and glow carry through. Remembrance dates can bring their own light when you want them to.</p><a class="underlined-link" href="./support/">How live wallpaper works <span aria-hidden="true">↗</span></a><p class="small-print">Available wallpaper placement depends on your phone and launcher. Live wallpaper is silent.</p></div>
+          </div>
+        </section>
+
+        <section class="questions section" id="questions" aria-labelledby="questions-title">
+          <div class="wrap questions-layout">
+            <div><p class="eyebrow">A few things to know</p><h2 id="questions-title">Make yourself<br /><em>comfortable.</em></h2><p class="questions-intro">A little clarity before you settle in.<br />For anything else, <a href="./support/">we're here.</a></p></div>
+            <div class="faq-list">
+              <details><summary>When can I get Still Alight?<span aria-hidden="true">+</span></summary><p>Still Alight is being prepared for Google Play. There isn't a public download or confirmed release date yet. This page will link to the store when it's available.</p></details>
+              <details><summary>Which phones will it work on?<span aria-hidden="true">+</span></summary><p>The current app is built for Android 8.0 and later on compatible phones with OpenGL ES 3.0. It is designed for portrait use. Live wallpaper placement depends on your device and launcher.</p></details>
+              <details><summary>Can I make the candle my own?<span aria-hidden="true">+</span></summary><p>Yes. Choose Classic, Triple wick, or Oval wood wick, then Vanilla Blossom, Lavender Fields, or Cozy Cabin. Design a label with your words, drawings, stickers, or selected photos, and preview it on the 3D jar.</p></details>
+              <details><summary>Where are my memories and photos stored?<span aria-hidden="true">+</span></summary><p>The current prerelease stores remembrance details, labels, and imported media in private app storage on your phone. The release is expected to add advertising and purchase services; their data practices will be documented before launch. Read the <a href="./privacy/">privacy policy</a> and <a href="./delete-data/">local data removal guide</a> for the current details.</p></details>
+              <details><summary>Will the app have ads or a paid option?<span aria-hidden="true">+</span></summary><p>Advertising through AdMob and an optional paid ad-free version using RevenueCat are planned for release. They aren't integrated in the current preview build. Pricing and final purchase details haven't been announced.</p></details>
+              <details><summary>Is it a timer, a widget, or a live wallpaper?<span aria-hidden="true">+</span></summary><p>It is a candle app with quiet-session timers and an optional live wallpaper. A home-screen widget is not currently included. Timers follow the phone's clock; they aren't alarms and do not wake the device or send a notification when finished.</p></details>
+            </div>
+          </div>
+        </section>
+
+        <section class="release section" id="release" aria-labelledby="release-title">
+          <div class="release-glow" aria-hidden="true"></div>
+          <div class="wrap release-content"><div class="little-flame" aria-hidden="true"></div><p class="eyebrow">Still Alight · by Satzquatch</p><h2 id="release-title">Good things<br /><em>are still here.</em></h2><p>We're making a little more room for them.</p><span class="release-pill"><svg viewBox="0 0 24 26" aria-hidden="true"><path d="m3 2 18 11L3 24V2Z"/></svg>Coming to Google Play</span><p class="release-note">For Android · In development</p><a class="underlined-link" href="https://www.satzquatch.com/">Visit the rest of our little world <span aria-hidden="true">↗</span></a></div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="wrap footer-top"><a class="footer-brand" href="#candle">Still Alight<span>A little room for calm.</span></a><nav class="footer-links" aria-label="Help and legal"><a href="./privacy/">Privacy</a><a href="./terms/">Terms</a><a href="./support/">Support</a><a href="./delete-data/">Your data</a></nav></div>
+        <div class="wrap footer-bottom"><p>Made with care by <a href="https://www.satzquatch.com/">Satzquatch ↗</a></p><p>© 2026 Still Alight. <span class="footer-separator">·</span> Small things. A brighter world.</p></div>
+      </footer>
+      <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
