@@ -1,6 +1,6 @@
 # Support
 
-Effective date: **29 September 2026**. This page describes the current Still Alight Android app, version **1.0.0**.
+Effective date: **30 September 2026**. This page describes Still Alight Android version **1.2.0 (test-ad development build)**. Earlier 1.1.1 builds do not include the advertising SDK.
 
 Need help with Still Alight? Email **[tex@discvault.us](mailto:tex@discvault.us)** with “Still Alight” in the subject.
 
@@ -12,7 +12,7 @@ On **Home**, use **Tap to Light** or **Tap to Extinguish**. Drag across the cand
 
 ## Make it your own
 
-Open **Style → Customize label** to draw, add text or choose an image. **Save & apply** saves the editable design and puts it on the selected candle. Returning to the original label keeps the saved design available for later.
+Open **Style → Customize label → Quick label** for a template with a name, message and optional photo, or use the full editor to draw, add text and arrange layers. **Save & apply** saves the editable design and puts it on the selected candle. Returning to the original label keeps the saved design available for later.
 
 ## Add a remembrance
 
@@ -24,13 +24,13 @@ Dates use your phone's local time. A scheduled candle updates while the app or w
 
 Open **Live wallpaper** to choose a bundled background, a color, or your own image through **My Photos**. Use **Adjust** to frame a photo. **Set Wallpaper** opens Android's apply screen; home-screen and lock-screen choices depend on your phone. **Save Background** updates an already-applied Still Alight wallpaper.
 
-The wallpaper is silent. It does not add or rearrange launcher clocks, icons or widgets. A home-screen widget is not part of version 1.0.0.
+The wallpaper is silent. It does not add or rearrange launcher clocks, icons or widgets. A home-screen widget is not part of version 1.2.0.
 
 ## Sound and imported audio
 
 Open **Controls → Sound** for Soft rain, Fireside or Off. **Choose audio file** imports a private copy of a supported file up to 250 MB. Format support depends on the phone; MP3, M4A, OGG and WAV are common choices.
 
-Audio plays while the app is visible and the displayed candle is lit. Switching apps pauses it. **Replace audio file** changes your saved selection; **Remove my audio** removes Still Alight's copy. Neither action deletes the original file.
+Audio follows the lit candle across app screens. Enable **Continue sound outside the app** in Sound to listen while reading in another app or with the phone locked. Android media controls let you stop the sound. With this option off, leaving the app pauses playback and returning resumes it. **Replace audio file** changes your saved selection; **Remove my audio** removes Still Alight's copy. Neither action deletes the original file.
 
 If an import fails, try a supported file stored on your phone and check its size. A cancelled or failed import keeps the previous selection.
 
@@ -38,12 +38,22 @@ If an import fails, try a supported file stored on your phone and check its size
 
 Use **Controls → Timer** to start a timed candle, or choose **Just glow · no timer**. The countdown follows the phone's clock and catches up when you reopen the app. Changing the system time can affect it.
 
-Open **Settings** for **Keep screen awake** and **Still flame · reduced motion**. Keep screen awake applies while a lit app is in the foreground.
+Open **Settings** for **Keep screen awake** and **Still flame · reduced motion**. Keep screen awake is off on new installations and applies only while a lit app is in the foreground. **Use energy-saving settings** selects a still flame and lets the display sleep. Choosing an already-selected timer keeps the current session; use **Restart current timer** to begin again.
+
+## Backup and restore
+
+Open **Settings → Backup & restore** to create a password-protected backup or restore one. Backups include remembrance, labels and drafts, imported photos/audio, and settings. Choose a password of at least 8 characters and keep it safe; it cannot be recovered by support. The file stays at the destination you choose, which may be a local or cloud file provider.
+
+Restoring replaces the app's current saved content after validating the backup. Create a backup first if you want to keep both versions. Active timers and background sound are stopped after restore. Failed validation or an incorrect password leaves current content intact.
 
 ## Privacy and removing content
 
-The current app works offline, has no account and contains no ads or purchase integration. Read the [Privacy Policy](privacy.md) for local storage and device-transfer details, and [Delete your data](delete-data.md) for removal instructions. Email support if the instructions do not match your phone's menus.
+Candle features work offline and there are no accounts or purchases. Version 1.2.0 uses Google demo ads during eligible customization. Read the [Privacy Policy](privacy.md) for local storage, advertising SDK and device-transfer details, and [Delete your data](delete-data.md) for removal instructions. Email support if the instructions do not match your phone's menus.
 
 ## Future ads and ad-free purchases
 
-AdMob advertising and a RevenueCat-managed paid ad-free option are planned for a possible later release. They are not available in version 1.0.0. Purchase and restore guidance will be added when the actual product and release are ready.
+Version 1.2.0 includes Google demo advertisements only below wallpaper Backgrounds choices, while candles and app sound are off. They are skipped offline and never required to save, apply or customize. Use **Settings → Customization test ads** to turn them off; **Settings → Privacy policy** reads the full policy offline. Live ads and purchases are unavailable. A RevenueCat-managed paid ad-free option remains a possible future feature.
+
+## Test ads and privacy
+
+The ad card is labeled **Ad** and uses Google's demo IDs. If it does not load, continue customizing normally. Ads are suppressed during any everyday or remembrance burn, background/app sound, full-screen preview and photo importing. There are no interstitial, rewarded or app-open ads in this build. The app processes your personal candle creations locally; Google's advertising SDK has separate network and device data practices described in the [Privacy Policy](privacy.md).

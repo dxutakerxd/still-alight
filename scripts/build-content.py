@@ -297,7 +297,7 @@ def render_page(slug: str) -> str:
   <footer class="site-footer">
     <div><a class="footer-brand" href="../" aria-label="Still Alight home"><img class="brand-mark" src="../assets/brand/quiet-flame-light.svg" alt="" width="36" height="36"><span>Still Alight</span></a><p>A little light. A little room to breathe.</p></div>
     <nav aria-label="Footer">{legal_links(slug)}<a href="https://satzquatch.com/">More from Satzquatch <span aria-hidden="true">↗</span></a></nav>
-    <p class="footer-note">Android version 1.0.0. Published by Satzquatch · <a href="mailto:tex@discvault.us">tex@discvault.us</a></p>
+    <p class="footer-note">Android 1.2.0 test-ad development build. Published by Satzquatch · <a href="mailto:tex@discvault.us">tex@discvault.us</a></p>
   </footer>
 </body>
 </html>
