@@ -1,6 +1,6 @@
 # Support
 
-Effective date: **30 September 2026**. This page describes Still Alight Android version **1.2.0 (test-ad development build)**. Earlier 1.1.1 builds do not include the advertising SDK.
+Effective date: **1 October 2026**. This page describes Still Alight Android version **1.2.0 (test-ad development build)**. Earlier 1.1.1 builds do not include the advertising SDK.
 
 Need help with Still Alight? Email **[tex@discvault.us](mailto:tex@discvault.us)** with “Still Alight” in the subject.
 
@@ -32,13 +32,15 @@ Open **Controls → Sound** for Soft rain, Fireside or Off. **Choose audio file*
 
 Audio follows the lit candle across app screens. Enable **Continue sound outside the app** in Sound to listen while reading in another app or with the phone locked. Android media controls let you stop the sound. With this option off, leaving the app pauses playback and returning resumes it. **Replace audio file** changes your saved selection; **Remove my audio** removes Still Alight's copy. Neither action deletes the original file.
 
+Enable **Beat-responsive flame** in **Controls → Sound** to make the lit flame pulse with the sound Still Alight is playing. It is off by default. Triple wick uses separate flames for low, mid and high tones; Oval wood wick shows three responsive sections along one continuous flame. Classic pulses as one flame. It does not respond to music in other apps. The first use with a large imported file can take a moment to analyze while its playback continues. **Still flame · reduced motion** keeps the flame steady even when the sound option is enabled.
+
 If an import fails, try a supported file stored on your phone and check its size. A cancelled or failed import keeps the previous selection.
 
 ## Timers and motion
 
-Use **Controls → Timer** to start a timed candle, or choose **Just glow · no timer**. The countdown follows the phone's clock and catches up when you reopen the app. Changing the system time can affect it.
+Use **Controls → Timer** to start a timed candle, or choose **Just glow · no timer**. While a timer runs, **Pause timer** freezes the remaining time and wax while the candle stays lit. The Timer sheet then offers **Resume** to continue or **Restart** to begin the selected duration again. A paused timer stays paused when you leave or reopen the app. Running countdowns follow the phone's clock and catch up when you reopen the app; changing the system time can affect them.
 
-Open **Settings** for **Keep screen awake** and **Still flame · reduced motion**. Keep screen awake is off on new installations and applies only while a lit app is in the foreground. **Use energy-saving settings** selects a still flame and lets the display sleep. Choosing an already-selected timer keeps the current session; use **Restart current timer** to begin again.
+Open **Settings** for **Keep screen awake** and **Still flame · reduced motion**. Keep screen awake is off on new installations and applies only while a lit app is in the foreground. **Use energy-saving settings** selects a still flame and lets the display sleep. Choosing an already-selected timer keeps the current session; pause it to access **Restart**.
 
 ## Backup and restore
 

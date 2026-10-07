@@ -8,7 +8,7 @@ Still Alight currently has no app account. Your candle preferences, remembrance 
 
 | Item | What to do | What it removes |
 | --- | --- | --- |
-| Imported audio | Open **Home → Controls → Sound → Remove my audio** | The app's imported audio copy and its saved selection; your original file remains |
+| Imported audio | Open **Home → Controls → Sound → Remove my audio** | The app's imported audio copy, saved selection and beat-analysis cache; your original file remains |
 | A loved one's remembrance | Open **Remembrance**, choose the loved one, select **Edit → Delete**, then confirm | That profile and its saved remembrance dates; custom-label files may remain separately |
 | A remembrance date | Open the date for editing and select **Delete this date**, then confirm | That saved date; the profile and its other dates remain |
 | A saved label | Open **Style → Customize label → Saved designs**, use the design's **⋮ → Delete design**, then confirm | The saved design and its rendered revisions; candles using it return to their original label |

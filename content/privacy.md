@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Effective date: **30 September 2026**. This page describes Still Alight Android version **1.2.0 (test-ad development build)**. Earlier 1.1.1 builds do not include the advertising SDK.
+Effective date: **1 October 2026**. This page describes Still Alight Android version **1.2.1 (test-ad development build)**. Earlier 1.1.1 builds do not include the advertising SDK.
 
 Still Alight: 3D Candle is published by **Satzquatch**. In this policy, “we” means that publisher. For privacy questions, contact **[tex@discvault.us](mailto:tex@discvault.us)**.
 
@@ -8,20 +8,21 @@ This policy describes the current Android app, our app website, and messages you
 
 ## The current app
 
-Candle, label, remembrance, local audio and wallpaper features work without an account or an internet connection. Version 1.2.0 adds Google Mobile Ads SDK 25.5.0 for development test advertisements. Ads need network access; the candle features do not depend on an ad loading. We do not operate an app account or cloud-sync service, and the app does not send your candle settings, remembrance names/messages/dates, label content, photos or imported audio to us or include that content in advertising requests. There are no purchases, subscriptions, publisher analytics or remote crash-reporting integrations. Google's advertising SDK has its own data handling, described below.
+Candle, label, remembrance, saved audio and wallpaper features work without an account or an internet connection. Version 1.2.1 includes Google Mobile Ads SDK 25.5.0 for development test advertisements. Ads need network access. In this test-ad build, selecting or replacing a custom audio file requires completing a rewarded demo ad; an already saved file and the built-in sounds remain usable offline. We do not operate an app account or cloud-sync service, and the app does not send your candle settings, remembrance names/messages/dates, label content, photos or imported audio to us or include that content in advertising requests. There are no purchases, subscriptions, publisher analytics or remote crash-reporting integrations. Google's advertising SDK has its own data handling, described below.
 
 The app saves information in its private storage so that your choices and creations remain available when you return:
 
 | Information | Why it is used |
 | --- | --- |
 | Candle style, shape, orientation, glow, sound, wallpaper and accessibility preferences | To display your chosen candle and remember your settings |
-| Timer duration, deadline, candle state and audio playback position | To continue or finish the current session correctly |
+| Timer duration, deadline or paused remaining time, candle state and audio playback position | To continue or finish the current session correctly |
 | Whether customization test ads are enabled | To honor the advertising switch in Settings |
 | Names, personal messages and meaningful dates you enter in Remembrance | To create your remembrance candles and run their local schedules |
 | Custom-label text, drawings, layers, drafts, saved designs and generated label images | To let you create, edit and display labels on your candles |
 | Images you choose to add to a label | To make a private image copy for that design |
 | A photo you choose as a wallpaper background, with its crop and positioning settings | To display your chosen background behind the candle |
 | Audio you choose to import, its displayed filename and playback position | To play your chosen sound across app screens and, if enabled, in the background |
+| Beat-responsive flame choice and temporary low, mid and high audio levels | To make the flame follow the sound played by Still Alight when you enable that option |
 
 Entering remembrance content and importing files are optional. The app does not read your contacts or your device calendar to fill in remembrance profiles or dates. It does not record microphone audio or take camera pictures.
 
@@ -30,6 +31,8 @@ Entering remembrance content and importing files are optional. The app does not 
 Android's file picker lets you choose a specific image or audio file. Still Alight reads that selection and makes a private copy; it does not request broad access to your photo library or storage. Images are processed into bounded-size copies for label editing or wallpaper backgrounds. Imported audio is copied and checked for supported playback, with a maximum file size of 250 MB.
 
 The original file is not edited or deleted by these import features. A private copy can remain usable after the original is moved or deleted. Image selections may come from a cloud-backed provider shown by Android; that provider handles delivery of the selected file under its own settings and practices. The audio picker requests local files. Selecting a file does not give us access to it.
+
+If you enable **Controls → Sound → Beat-responsive flame**, Still Alight analyzes only its selected sound on your device. For imported audio, a compact set of low, mid and high levels is kept in app-private cache to avoid decoding the file again. Removing the imported audio also removes its cached levels. This feature does not use the microphone, capture audio from other apps or transmit your audio levels.
 
 ## App storage, security and device transfers
 
@@ -71,15 +74,17 @@ The website's own code does not set cookies, use browser storage, run analytics 
 
 ## Google test advertising
 
-Version 1.2.0 uses Google's publicly provided demo application and native ad unit IDs. These development ads are not connected to the publisher's AdMob account and do not earn advertising revenue. Live ads and personalized advertising are not enabled. Ad requests also set Google's non-personalized-ad parameter; this does not mean that the SDK processes no data.
+Version 1.2.1 uses Google's publicly provided demo application, native ad unit and rewarded ad unit IDs. These development ads are not connected to the publisher's AdMob account and do not earn advertising revenue. Live ads and personalized advertising are not enabled. Ad requests also set Google's non-personalized-ad parameter; this does not mean that the SDK processes no data.
 
-A clearly marked, image-only native ad can appear below the wallpaper **Backgrounds** choices. We do not place ads in Home, Remembrance, label editing, full-screen candle/wallpaper previews, timer or sound controls, or backup/restore. Ad requests and display are suppressed while an everyday candle or an app/wallpaper remembrance candle is lit, while app sound/background playback is active, and during photo importing. An in-flight request may finish after a state change; its result is discarded instead of displayed. Requests are limited to one per customization visit and at least ten minutes apart within the app process. Ads do not control candle lighting, wax, timers or audio. Offline or failed requests do not prevent customization.
+A clearly marked native ad with an image or muted video can appear above the wallpaper **Backgrounds** choices. We do not place automatic ads in Home, Remembrance, label editing, full-screen candle/wallpaper previews, timer controls, or backup/restore. Native ad requests and display are suppressed while an everyday candle or an app/wallpaper remembrance candle is lit, while app sound/background playback is active, and during photo importing. An in-flight request may finish after a state change; its result is discarded instead of displayed. Native requests are limited to one per customization visit and at least ten minutes apart within the app process. Ads do not control candle lighting, wax or timers. Offline or failed native ad requests do not prevent wallpaper customization.
+
+In **Controls → Sound**, tapping **Watch ad to access custom audio** or **Watch ad to replace audio file** opts into one full-screen rewarded demo ad. Completing the ad opens Android's local audio picker once; skipping, closing before the reward or an unavailable ad does not open it. The ad may contain video, an image or interactive content. Still Alight pauses its own sound while the ad is shown and resumes it afterward if the candle session remains active. Already imported audio can be played or removed without another ad. The rewarded ad is user initiated and is separate from the wallpaper ad switch. Builds with demo ads disabled let users choose a file directly.
 
 The app requests network access and network-state access for advertising. The SDK also declares wake-lock permission for its internal work; advertising does not enable the app's Keep screen awake setting. This build removes the Android advertising-ID and AdServices advertising-ID, attribution and topics permissions. It does not supply names, dates, messages, label text, photos, audio, imported filenames, location coordinates or content-based targeting keywords to the advertising SDK.
 
 Google documents that its Mobile Ads SDK can collect and share IP addresses, advertising interactions, diagnostic/performance information and device or account identifiers for advertising, analytics and fraud prevention. Removing advertising-ID permission does not prevent all other identifiers or network information from being processed. The SDK may keep local state or caches. Test advertisements do not eliminate SDK network traffic or these data considerations. See [Google's Mobile Ads SDK data disclosure](https://developers.google.com/admob/android/privacy/play-data-disclosure) and [Google Privacy Policy](https://policies.google.com/privacy).
 
-You can turn **Settings → Customization test ads** off. This removes a displayed customization ad and prevents new app-issued ad requests. It does not undo requests already sent, stop every SDK-internal operation, or erase information already held by Google. Clearing app storage removes local app/SDK storage; Google's records are governed by its policy and privacy controls. The local test-ad switch is not a production advertising-consent form.
+You can turn **Settings → Wallpaper demo ads** off. This removes a displayed wallpaper ad and prevents new app-issued wallpaper ad requests. It does not disable the optional rewarded ad requested by tapping the custom-audio button. Turning the switch off does not undo requests already sent, stop every SDK-internal operation, or erase information already held by Google. Clearing app storage removes local app/SDK storage; Google's records are governed by its policy and privacy controls. The local wallpaper-ad switch is not a production advertising-consent form.
 
 ## Future live advertising and purchases
 
