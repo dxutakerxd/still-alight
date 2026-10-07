@@ -1,6 +1,6 @@
 # Terms of Use
 
-Effective date: **30 September 2026**. This page describes Still Alight Android version **1.2.0 (test-ad development build)**. Earlier 1.1.1 builds do not include the advertising SDK.
+Effective date: **7 October 2026**. This page describes Still Alight Android version **1.2.1 (test-ad development build)**. Earlier 1.1.1 builds do not include the advertising SDK.
 
 Still Alight: 3D Candle is provided by **Satzquatch**. These terms describe use of the app and its accompanying website. Questions can be sent to **[tex@discvault.us](mailto:tex@discvault.us)**.
 
@@ -20,13 +20,13 @@ Your content can be visible to people who see your phone, including when display
 
 ## Local content and app behavior
 
-Version 1.2.0 has no app account or publisher-operated sync service. Clearing the app's storage or uninstalling it removes local content from that installation. We cannot restore content from an account on our servers. Device migrations and storage-provider copies are governed by those systems separately. The [Privacy Policy](privacy.md) and [Delete your data](delete-data.md) page explain the current storage and deletion behavior.
+Still Alight has no app account or publisher-operated sync service. Clearing the app's storage or uninstalling it removes local content from that installation. We cannot restore content from an account on our servers. Device migrations and storage-provider copies are governed by those systems separately. The [Privacy Policy](privacy.md) and [Delete your data](delete-data.md) page explain the current storage and deletion behavior.
 
-Remembrance schedules and session timers use the phone's local time. They do not act as an alarm or notification service and do not wake a hidden app or wallpaper at a scheduled moment. Display and wallpaper options depend on the device. We may correct bugs and update features, and will describe material changes where appropriate.
+Remembrance schedules use the phone's local time. Session timers keep their remaining time when the phone's clock is changed while it stays on. Neither acts as an alarm service or wakes a hidden app or wallpaper at a scheduled moment. When a loved one with a sound has a candle that lights on a visible live wallpaper, the app may offer a notification to play their sound, or start it automatically if you chose that. Display and wallpaper options depend on the device. We may correct bugs and update features, and will describe material changes where appropriate.
 
 ## Advertising and purchases
 
-Version 1.2.0 includes Google demo advertisements during eligible wallpaper Backgrounds browsing. Ads are not required to light a candle, save or apply customization, import files, or use remembrance. You can disable test ads in Settings. There are no live advertising placements, payments or subscriptions. Google handles advertising SDK information under its own policy, as explained in our [Privacy Policy](privacy.md). A RevenueCat-managed paid ad-free option remains a possible future feature. Its price, purchase type, included benefits, restore process and applicable conditions must be made clear before any purchase is offered. These terms do not authorize future charges.
+Version 1.2.1 test-ad builds include Google demo advertisements during eligible wallpaper Backgrounds browsing, and an optional rewarded demo ad you may choose to watch before importing custom audio. Ads are not required to light a candle, save or apply customization, choose a loved one's recording, or use remembrance, and no ad is offered for custom audio while a remembrance candle is lit. Where your region requires it, Google's consent choice is shown before ads and can be changed in **Settings → Ad privacy choices**. You can disable wallpaper demo ads in Settings. There are no live advertising placements, payments or subscriptions. Google handles advertising SDK information under its own policy, as explained in our [Privacy Policy](privacy.md).
 
 ## Privacy and support
 
