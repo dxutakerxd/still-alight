@@ -1,6 +1,6 @@
 # Delete your data
 
-Effective date: **30 September 2026**. This page describes Still Alight Android version **1.2.0 (test-ad development build)**. Earlier 1.1.1 builds do not include the advertising SDK.
+Effective date: **7 October 2026**. This page describes Still Alight Android version **1.2.1 (test-ad development build)**. Earlier 1.1.1 builds do not include the advertising SDK.
 
 Still Alight currently has no app account. Your candle preferences, remembrance content, label designs and imported media are stored in the app's private storage on your device. You do not need to send us an account-deletion request to remove that local content.
 
@@ -9,7 +9,8 @@ Still Alight currently has no app account. Your candle preferences, remembrance 
 | Item | What to do | What it removes |
 | --- | --- | --- |
 | Imported audio | Open **Home → Controls → Sound → Remove my audio** | The app's imported audio copy, saved selection and beat-analysis cache; your original file remains |
-| A loved one's remembrance | Open **Remembrance**, choose the loved one, select **Edit → Delete**, then confirm | That profile and its saved remembrance dates; custom-label files may remain separately |
+| A loved one's recording | Open **Remembrance**, choose the loved one, select **Edit**, change **Their sound** to another option and **Save** | The app's copy of the recording chosen for them; your original file remains |
+| A loved one's remembrance | Open **Remembrance**, choose the loved one, select **Edit → Delete**, then confirm | That profile, its saved remembrance dates and any recording chosen for them; custom-label files may remain separately |
 | A remembrance date | Open the date for editing and select **Delete this date**, then confirm | That saved date; the profile and its other dates remain |
 | A saved label | Open **Style → Customize label → Saved designs**, use the design's **⋮ → Delete design**, then confirm | The saved design and its rendered revisions; candles using it return to their original label |
 | A label draft | When leaving an edited label, choose **Discard draft** | That draft; a saved design or an imported image copy may remain |
@@ -34,7 +35,7 @@ Backups exported through **Settings → Backup & restore** are separate password
 
 Removing app content does not delete original photos or audio in your gallery or file provider. Manage those files in the app or service where they are stored.
 
-Version 1.2.0 disables Android cloud backup and excludes all app storage domains from its Android backup and device-transfer rules. Device manufacturers and independent migration services may behave differently. Any copies already made by a migration or backup service, including copies from earlier versions, must be managed through that service or device. Clearing this installation does not reach another device or a separate copy.
+Still Alight disables Android cloud backup and excludes all app storage domains from its Android backup and device-transfer rules. Device manufacturers and independent migration services may behave differently. Any copies already made by a migration or backup service, including copies from earlier versions, must be managed through that service or device. Clearing this installation does not reach another device or a separate copy.
 
 We cannot access or remotely erase the private content stored in your Still Alight installation.
 
