@@ -1,12 +1,12 @@
 # Terms of Use
 
-Effective date: **7 October 2026**. This page describes Still Alight Android version **1.2.1 (test-ad development build)**. Earlier 1.1.1 builds do not include the advertising SDK.
+Effective date: **16 October 2026**. This page describes Still Alight Android version **1.3.4 (39)** and later production releases. Earlier 1.1.1 builds do not include the advertising SDK.
 
 Still Alight: 3D Candle is provided by **Satzquatch**. These terms describe use of the app and its accompanying website. Questions can be sent to **[tex@discvault.us](mailto:tex@discvault.us)**.
 
 ## Using Still Alight
 
-Still Alight is intended for adults aged 18 and older. It is a decorative and personal remembrance app, not a medical device or a substitute for professional care.
+You must be at least 13 years old to use Still Alight. The app checks the birthday you enter before allowing access. It is a decorative and personal remembrance app, not a medical device or a substitute for professional care.
 
 Still Alight provides interactive digital candles, ambient sound, custom labels, remembrance dates and an Android live wallpaper. You may install and use the app for your own lawful purposes, subject to these terms and the terms of the store through which you obtained it.
 
@@ -26,7 +26,9 @@ Remembrance schedules use the phone's local time. Session timers keep their rema
 
 ## Advertising and purchases
 
-Version 1.2.1 test-ad builds include Google demo advertisements during eligible wallpaper Backgrounds browsing, and an optional rewarded demo ad you may choose to watch before importing custom audio. Ads are not required to light a candle, save or apply customization, choose a loved one's recording, or use remembrance, and no ad is offered for custom audio while a remembrance candle is lit. Where your region requires it, Google's consent choice is shown before ads and can be changed in **Settings → Ad privacy choices**. You can disable wallpaper demo ads in Settings. There are no live advertising placements, payments or subscriptions. Google handles advertising SDK information under its own policy, as explained in our [Privacy Policy](privacy.md).
+Still Alight shows Google AdMob ads during eligible wallpaper Backgrounds browsing, and offers optional rewarded ads you may choose to watch before importing custom audio or to preview a locked Pro item for 24 hours. Ads are not required to light a candle, save or apply customization, choose a loved one's recording, or use remembrance, and no ad is offered for custom audio while a remembrance candle is lit. Where your region requires it, Google's consent choice is shown before ads and can be changed in **Settings → Ad privacy choices**. You can turn wallpaper ads off in Settings.
+
+**Still Alight Pro** is an optional paid upgrade, sold through Google Play as a monthly or yearly subscription or a one-time lifetime purchase, and it removes ads. Prices and plan terms are shown before you buy. Google Play processes payments, refunds and cancellations under its own terms. Subscriptions renew automatically until cancelled in Google Play, and uninstalling the app does not cancel them. **Restore** recovers Pro purchases made with the same Google account. Google handles advertising SDK information and RevenueCat manages Pro purchase records, as explained in our [Privacy Policy](privacy.md).
 
 ## Privacy and support
 
